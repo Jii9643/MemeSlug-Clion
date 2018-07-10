@@ -15,7 +15,7 @@ TEST(Player, Test_Player)
     testTextures.push_back(Texture());
     testTextures.push_back(Texture());
     dArr<Texture> testTextures1;
-    
+
     RenderWindow * window;
 
     Player testPlayer(testTextures,0,0,0);

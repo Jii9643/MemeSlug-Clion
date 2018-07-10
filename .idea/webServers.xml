@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ef5f0b09-5f1e-4711-8744-747ab62e1c3c" name="https://github.com/Jii9643/MemeSlug-Clion.git" url="https://github.com/Jii9643/MemeSlug-Clion.git">
+        <fileTransfer host="https://github.com/Jii9643/MemeSlug-Clion.git" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
