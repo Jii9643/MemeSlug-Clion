@@ -19,6 +19,7 @@ public:
     Enemy(dArr<Texture> &textures, dArr<Texture> &bulletTextures, Vector2u windowBounds, Vector2f position, Vector2f moveDirection,
           Vector2f scale, int type, int hpMax, int damageMax, int damageMin, int playerFollowNr, StrategyMove* sm = nullptr);
 
+
     virtual ~Enemy();
 
     //Accessori
