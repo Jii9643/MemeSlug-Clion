@@ -25,12 +25,14 @@ public:
     void Update(const float &dt);
     void Draw(RenderTarget &target);
 
+    Sprite sprite;
+
+
 private:
 
     float dtMultiplier;
 
     Texture * texture;
-    Sprite sprite;
 
 
     Vector2f currentVelocity;

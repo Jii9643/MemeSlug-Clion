@@ -797,19 +797,19 @@ void Game::CreateMap()
 {
     for (float i = 0.f; i < 270000.f; i +=150.f)
     {
-        this->blocks.add(Map(this->mapTextures, Vector2f(i-800, 850.f),
+        this->blocks.add(Platform(this->mapTextures, Vector2f(i-800, 850.f),
                              Vector2f(0.5f, 0.5f), this->window->getSize(), 0));
     }
 
     for (float j = 0; j < 270000; j += 1000 + rand()%3000)
     {
-        this->blocks.add(Map(this->mapTextures, Vector2f(j , 550.f),
+        this->blocks.add(Platform(this->mapTextures, Vector2f(j , 550.f),
                              Vector2f(0.5f, 0.35f), this->window->getSize(), 1));
     }
 
     for (float j = 0; j < 270000; j += 100 + rand() % 3000)
     {
-        this->blocks.add(Map(this->mapTextures, Vector2f(j, 150.f),
+        this->blocks.add(Platform(this->mapTextures, Vector2f(j, 150.f),
                              Vector2f(0.5f, 0.35f), this->window->getSize(), 1));
     }
 

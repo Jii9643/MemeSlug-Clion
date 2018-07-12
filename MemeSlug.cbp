@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MemeSlug"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;CMake Files\Test\;CMake Files\Test\cmakemod\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core">
+				<Option output="/home/jii/CLionProjects/MemeSlug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="/home/jii/CLionProjects/MemeSlug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemeSlug">
+				<Option output="/home/jii/CLionProjects/MemeSlug/MemeSlug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 MemeSlug"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MemeSlug/fast">
+				<Option output="/home/jii/CLionProjects/MemeSlug/MemeSlug" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 MemeSlug/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runAllTest">
+				<Option output="/home/jii/CLionProjects/MemeSlug/Test/runAllTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 runAllTest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runAllTest/fast">
+				<Option output="/home/jii/CLionProjects/MemeSlug/Test/runAllTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jii/CLionProjects/MemeSlug/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 runAllTest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jii/CLionProjects/MemeSlug/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Achievement.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Achievement.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Bullet.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Bullet.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/DisplayElement.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Enemy.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Enemy.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Game.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Game.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Main.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Observer.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Pickup.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Pickup.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Platform.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Platform.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Player.cpp">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Player.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/StrategyL.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/StrategyMove.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/StrategyR.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Subject.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Test/Test.cpp">
+			<Option target="runAllTest"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Test/TestEnemy.cpp">
+			<Option target="runAllTest"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Test/TestGame.cpp">
+			<Option target="runAllTest"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Test/TestPlayer.cpp">
+			<Option target="runAllTest"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/dArr.h">
+			<Option target="core"/>
+			<Option target="MemeSlug"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Test\"/>
+		</Unit>
+		<Unit filename="/home/jii/CLionProjects/MemeSlug/Test/cmakemod/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\Test\cmakemod\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

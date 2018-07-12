@@ -2,11 +2,11 @@
 // Created by jii on 03/07/18.
 //
 
-#include "Map.h"
+#include "Platform.h"
 
 enum bTypes {Grass = 0, Platform};
 
-Map::Map(dArr<Texture> &textures, Vector2f position, Vector2f scale, Vector2u windowBounds, int type)
+Platform::Platform(dArr<Texture> &textures, Vector2f position, Vector2f scale, Vector2u windowBounds, int type)
 {
     this->dtMultiplier = 60.f;
 
@@ -26,11 +26,11 @@ Map::Map(dArr<Texture> &textures, Vector2f position, Vector2f scale, Vector2u wi
 }
 
 
-Map::~Map()
+Platform::~Platform()
 {
 }
 
-void Map::Draw(RenderTarget &target)
+void Platform::Draw(RenderTarget &target)
 {
     target.draw(this->block);
 }

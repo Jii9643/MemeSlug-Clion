@@ -58,9 +58,11 @@ public:
             return v / length;
     }
 
+    Sprite sprite;
+
 private:
     dArr<Texture> *textures;
-    Sprite sprite;
+
     Vector2u windowBounds;
     Vector2f lookDirection;
     Vector2f normalizedLookDir;

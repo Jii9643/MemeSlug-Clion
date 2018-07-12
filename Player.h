@@ -51,7 +51,11 @@ public:
     inline void setGravity() { this->sprite.move(0.f, gravitySpeed); }
     inline void setMissileAmmo() { this->missileAmmo = 10; }
     inline void setLaserAmmo() { this->laserAmmo = 5; }
+    inline void setPosition(float x, float y) { this->sprite.setPosition (x, y); }
+    inline void setHp(int i) { this->hp = i; }
 
+
+    bool chechGameOver();
 
 
     //Funzioni 
@@ -68,9 +72,11 @@ public:
     virtual void Attach(Observer*o)override;
     virtual void Detach(Observer*o)override;
     void Changed() { Notify(); };
-    void SetKillSoldier();
-    void SetKillUfo();
-    void SetPoints(int pnts);
+    int SetKillSoldier();
+    int SetKillUfo();
+    int SetPoints(int pnts);
+    bool checkBullet();
+    bool checkPiercingShot();
 
 
     FloatRect playerBounds;
@@ -93,10 +99,12 @@ public:
     }
 
 
+
+    Sprite sprite;
+
 private:
 
     //Membri riguardanti player.
-    Sprite sprite;
     RectangleShape hitBox;
     Vector2f playerCenter;
     Vector2f direction;

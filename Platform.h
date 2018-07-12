@@ -2,8 +2,8 @@
 // Created by jii on 03/07/18.
 //
 
-#ifndef MEMESLUG_MAP_H
-#define MEMESLUG_MAP_H
+#ifndef MEMESLUG_Platform_H
+#define MEMESLUG_Platform_H
 
 
 #pragma once
@@ -24,24 +24,26 @@
 
 using namespace sf;
 
-class Map
+class Platform
 {
 public:
 
-    Map(dArr<Texture> &textures, Vector2f position, Vector2f scale, Vector2u windowBounds, int type);
+    Platform(dArr<Texture> &textures, Vector2f position, Vector2f scale, Vector2u windowBounds, int type);
 
     inline FloatRect getGlobalBounds() const { return this->block.getGlobalBounds(); }
     inline Vector2f getPosition() const { return this->block.getPosition(); }
     inline const int& getType() const { return this->type; }
-    virtual ~Map();
+    virtual ~Platform();
 
     //Funzioni
     void Draw(RenderTarget &target);
 
+    Sprite block;
+
 private:
 
     dArr<Texture> *textures;
-    Sprite block;
+
     Vector2u windowBounds;
     int type;
 
@@ -49,4 +51,4 @@ private:
 };
 
 
-#endif //MEMESLUG_MAP_H
+#endif //MEMESLUG_Platform_H

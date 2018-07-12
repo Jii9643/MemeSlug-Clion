@@ -10,7 +10,7 @@
 #include "Player.h"
 #include "Enemy.h"
 #include "Achievement.h"
-#include "Map.h"
+#include "Platform.h"
 
 
 
@@ -113,7 +113,7 @@ private:
     StrategyMove* move;
 
     //Map
-    dArr <Map> blocks;
+    dArr <Platform> blocks;
 
 
     //Textures

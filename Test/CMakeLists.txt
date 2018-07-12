@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-set(SOURCE_FILES Test.cpp TestPlayer.cpp TestEnemy.cpp TestPlatform.cpp)
+set(SOURCE_FILES Test.cpp TestPlayer.cpp TestEnemy.cpp TestGame.cpp)
 add_executable(runAllTest ${SOURCE_FILES})
 target_link_libraries(runAllTest ${GTEST_BOTH_LIBRARIES} core pthread)
 

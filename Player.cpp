@@ -52,7 +52,7 @@ Player::Player(std::vector<Texture> &textures, int ks, int ku, int pnts)
     //Velocità, accelerazione e attrito.
     this->maxVelocity = 6.0f;
     this->acceleration = 1.0f;
-    this->stabilizerForce = 5.5f;
+    this->stabilizerForce = 0.5f;
 
     //Arma corrente.
     this->currentWeapon = BULLET1;
@@ -375,6 +375,14 @@ void Player::removeBullet(unsigned index)
     return this->bullets.remove(index);
 }
 
+bool Player::checkPiercingShot()
+{
+    if(this->currentWeapon == LASER)
+    {
+        return true;
+    }
+}
+
 void Player::Reset()
 {
     this->hpMax = 20;
@@ -431,24 +439,43 @@ void Player::Detach(Observer *o)
 }
 
 
-void Player::SetKillSoldier()
+int Player::SetKillSoldier()
 {
     this->killSoldier += 1;
     Changed();
 
+    return this->killSoldier;
+
 }
 
-void Player::SetKillUfo()
+int Player::SetKillUfo()
 {
     this->killUfo +=1;
     Changed();
 
+    return this->killUfo;
+
 }
 
-void Player::SetPoints(int pnts)
+int Player::SetPoints(int pnts)
 {
     this->points = pnts;
     Changed();
+
+    return this->points;
+}
+
+bool Player::checkBullet()
+{
+    if (this->currentWeapon == BULLET1)
+        return true;
+}
+
+bool Player::chechGameOver()
+{
+    if(this->hp <= 0)
+        return true;
+
 }
 
 

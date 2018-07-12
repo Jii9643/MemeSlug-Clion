@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(Test)
 
-set(SOURCE_FILES Game.cpp Game.h Player.cpp Player.h Bullet.cpp Bullet.h Achievement.cpp Achievement.h Enemy.cpp Enemy.h Map.cpp Map.h
+set(SOURCE_FILES Game.cpp Game.h Player.cpp Player.h Bullet.cpp Bullet.h Achievement.cpp Achievement.h Enemy.cpp Enemy.h Platform.cpp Platform.h
         Pickup.cpp Pickup.h StrategyL.h StrategyMove.h StrategyR.h Subject.h DisplayElement.h dArr.h Observer.h Main.cpp)
 
 add_executable(MemeSlug ${SOURCE_FILES})
